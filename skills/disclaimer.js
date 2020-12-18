@@ -1,5 +1,3 @@
-var _ = require("lodash");
-
 module.exports = function(controller) {
   controller.hears(
     [".*disclaimer*", ".*disclosure*"],
