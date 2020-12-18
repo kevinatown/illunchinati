@@ -40,7 +40,7 @@ module.exports = controller => {
           real_name_normalized =
             !!real_name_normalized && real_name_normalized === "Ankur Roy"
               ? "Roy Ankur"
-              : real_name_normalized;
+              : real_name_normalized === 'John Mahoney' ? 'Uncle Kitty' : real_name_normalized;
           if (channel_name === "directmessage") {
             // do something else
           } else {
